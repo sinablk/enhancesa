@@ -6,7 +6,6 @@
 [![pypi version](https://img.shields.io/pypi/v/enhancesa.svg)](https://pypi.org/project/enhancesa/)
 [![git tag](https://img.shields.io/github/tag-pre/sinablk/enhancesa.svg?label=git%20tag)](https://github.com/sinablk/enhancesa/releases)
 [![dependencies](https://img.shields.io/librariesio/github/sinablk/enhancesa.svg)](https://libraries.io/github/sinablk/enhancesa)
-![python versions](https://img.shields.io/pypi/pyversions/enhancesa.svg)
 
 Enhancesa is a collection of tools for more simplified statistical analysis in Python. It primarily aids in manual analysis and prediction tasks that use packages like [Statsmodels](https://www.statsmodels.org/stable/index.html) and [Scikit-learn](https://scikit-learn.org/stable/index.html) in their workflow.
 
