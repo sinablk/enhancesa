@@ -1,8 +1,8 @@
 # enhancesa
 
-[![Build Status](https://travis-ci.org/sinablk/enhancesa.svg?branch=master)](https://travis-ci.org/sinablk/enhancesa)
+[![Tests](https://github.com/sinablk/enhancesa/workflows/Tests/badge.svg)](https://github.com/sinablk/enhancesa/actions?workflow=Tests)
 [![Documentation Status](https://readthedocs.org/projects/enhancesa/badge/?version=latest)](https://enhancesa.readthedocs.io/en/latest/?badge=latest)
-[![codecov](https://codecov.io/gh/sinablk/enhancesa/branch/master/graph/badge.svg)](https://codecov.io/gh/sinablk/enhancesa) 
+[![Codecov](https://codecov.io/gh/sinablk/enhancesa/branch/master/graph/badge.svg)](https://codecov.io/gh/enhancesa/enhancesa)
 [![pypi version](https://img.shields.io/pypi/v/enhancesa.svg)](https://pypi.org/project/enhancesa/)
 [![git tag](https://img.shields.io/github/tag-pre/sinablk/enhancesa.svg?label=git%20tag)](https://github.com/sinablk/enhancesa/releases)
 [![dependencies](https://img.shields.io/librariesio/github/sinablk/enhancesa.svg)](https://libraries.io/github/sinablk/enhancesa)

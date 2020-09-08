@@ -20,8 +20,8 @@ sys.path.insert(0, os.path.abspath('~/'))
 # -- Project information -----------------------------------------------------
 
 project = 'enhancesa'
-copyright = '2019, Ali Sina'
 author = 'Ali Sina'
+copyright = f'2019, {author}'
 
 # The short X.Y version
 from enhancesa import __version__
