@@ -44,3 +44,11 @@ def lint(session):
 def docs(session):
     install_with_constraints(session, 'sphinx')
     session.run('sphinx-build', 'docs', 'docs/_build')
+
+
+
+@nox.session(python='3.8')
+def coverage(session):
+    install_with_constraints(session, 'coverage[toml]', 'codecov')
+    session.run('coverage', 'xml', '--fail-under=0')
+    session.run('codecov', *session.posargs)

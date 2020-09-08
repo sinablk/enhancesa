@@ -1,11 +1,13 @@
-# Semantic Versioning, see:
-# https://semver.org/
-#
-# Generic release markers:
-#   X.Y
-#   X.Y.Z   # For bugfix releases
-__version__ = '0.1-alpha'
+try:
+    from importlib.metadata import version, PackageNotFoundError
+except ImportError:   # pragma: no cover
+    from importlib_metadata import version, PackageNotFoundError
 
+
+try:
+    __version__ = version(__name__)
+except PackageNotFoundError:
+    __version__ = 'unknown'
 
 # Import enhancesa objects
 from .diag_plots import diag_plots

@@ -1,4 +1,5 @@
 *.egg-info
+.nox
 
 
 # Byte-compiled / optimized / DLL files
