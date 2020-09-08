@@ -6,8 +6,8 @@
 Welcome to enhancesa's documentation!
 =====================================
 
-.. image:: https://travis-ci.org/sinablk/enhancesa.svg?branch=master
-    :target: https://travis-ci.org/sinablk/enhancesa
+.. image:: https://github.com/sinablk/enhancesa/workflows/Tests/badge.svg
+    :target: https://github.com/sinablk/enhancesa/actions?workflow=Tests
     :alt: build
 .. image:: https://img.shields.io/librariesio/github/sinablk/enhancesa.svg
     :target: https://libraries.io/github/sinablk/enhancesa
